@@ -15,26 +15,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
-  # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
+  ui[0]: "A0"     # LSB of A
+  ui[1]: "A1"
+  ui[2]: "A2"     # MSB of A
+  ui[3]: "B0"     # LSB of B
+  ui[4]: "B1"
+  ui[5]: "B2"     # MSB of B
   ui[6]: ""
   ui[7]: ""
 
-# Outputs
-uo[0]: "SEG_A"
-uo[1]: "SEG_B"
-uo[2]: "SEG_C"
-uo[3]: "SEG_D"
-uo[4]: "SEG_E"
-uo[5]: "SEG_F"
-uo[6]: "SEG_G"
-uo[7]: "DP (decimal point)"
-  # Bidirectional pins
+  uo[0]: "GT"     # A > B
+  uo[1]: "EQ"     # A = B
+  uo[2]: "LT"     # A < B
+  uo[3]: "ANC1"  
+  uo[4]: "ANC2"   
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: ""
+
   uio[0]: ""
   uio[1]: ""
   uio[2]: ""
