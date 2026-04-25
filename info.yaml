@@ -23,16 +23,14 @@ pinout:
   ui[5]: "B2"     # MSB of B
   ui[6]: ""
   ui[7]: ""
-
-  uo[0]: "GT"     # A > B
-  uo[1]: "EQ"     # A = B
-  uo[2]: "LT"     # A < B
-  uo[3]: "ANC1"  
-  uo[4]: "ANC2"   
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "LT"     # A < B (and8 output)
+  uo[1]: "GT_or_LT"   # OR of GT and LT
+  uo[2]: "GT_or_LT"   # OR of GT and LT (duplicate)
+  uo[3]: "LT"     # A < B (duplicate)
+  uo[4]: "LT"     # A < B (duplicate)
+  uo[5]: "LT"     # A < B (duplicate)
+  uo[6]: "EQ"     # A = B (NOT of GT|LT)
   uo[7]: ""
-
   uio[0]: ""
   uio[1]: ""
   uio[2]: ""
@@ -41,6 +39,5 @@ pinout:
   uio[5]: ""
   uio[6]: ""
   uio[7]: ""
-
 # Do not change!
 yaml_version: 6
