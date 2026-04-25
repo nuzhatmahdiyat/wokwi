@@ -23,14 +23,14 @@ pinout:
   ui[5]: "B2"     # MSB of B
   ui[6]: ""
   ui[7]: ""
-  uo[0]: "LT"     # A < B (and8 output)
-  uo[1]: "GT_or_LT"   # OR of GT and LT
-  uo[2]: "GT_or_LT"   # OR of GT and LT (duplicate)
-  uo[3]: "LT"     # A < B (duplicate)
-  uo[4]: "LT"     # A < B (duplicate)
-  uo[5]: "LT"     # A < B (duplicate)
-  uo[6]: "EQ"     # A = B (NOT of GT|LT)
-  uo[7]: ""
+  uo[0]: "seg_a"
+  uo[1]: "seg_b"
+  uo[2]: "seg_c"
+  uo[3]: "seg_d"
+  uo[4]: "seg_e"
+  uo[5]: "seg_f"
+  uo[6]: "seg_g"
+  uo[7]: "seg_dp"
   uio[0]: ""
   uio[1]: ""
   uio[2]: ""
