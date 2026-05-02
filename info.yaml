@@ -1,9 +1,9 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     462290658621740033      # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "bootcamp"      # Project title
+  title:        "IEEE IC Bootcamp Khalifa University"      # Project title
   author:       "Nuzhat, Ayesha and Umamah"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      "nuzhatmahdiyat"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "This is a 3-bit reversible comparator"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
@@ -14,12 +14,12 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
-  ui[0]: "A0"     # LSB of A
+  ui[0]: "A0"    
   ui[1]: "A1"
-  ui[2]: "A2"     # MSB of A
-  ui[3]: "B0"     # LSB of B
+  ui[2]: "A2"     
+  ui[3]: "B0"     
   ui[4]: "B1"
-  ui[5]: "B2"     # MSB of B
+  ui[5]: "B2"    
   ui[6]: ""
   ui[7]: ""
   uo[0]: "seg_a"
