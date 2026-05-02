@@ -13,8 +13,7 @@ This project implements a 3-bit magnitude comparator that takes two 3-bit unsign
 integers A and B as inputs and compares them, displaying the result on a 7-segment
 display. 
 
-The comparison logic is built entirely from discrete gates (XOR, AND, NOT, OR). The
-circuit first computes the XOR of each corresponding bit pair (A2/B2, A1/B1, A0/B0)
+The circuit first computes the XOR of each corresponding bit pair (A2/B2, A1/B1, A0/B0)
 to detect differences between the two numbers. These difference signals are then fed
 into a chain of AND and NOT gates to determine the most significant bit position where
 A and B differ, which determines the result. Three comparison outputs are derived:
