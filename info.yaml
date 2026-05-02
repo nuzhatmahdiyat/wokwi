@@ -3,7 +3,7 @@ project:
   wokwi_id:     462290658621740033      # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "IEEE IC Bootcamp Khalifa University"      # Project title
   author:       "Nuzhat, Ayesha and Umamah"      # Your name
-  discord:      "nuzhatmahdiyat"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "This is a 3-bit reversible comparator"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
